@@ -12,7 +12,7 @@ Go版本的SDK，用于生成Orchsym API Gateway JWT 认证所需的token。
 
 ![img.png](images/rs256_create_app.png)
 
-> 注意：上述创建jwt_RS256应用所需的Public Key和privateKey，可以运行代码RSAGenerator.py进行生成，或者使用[在线生成工具](https://www.lddgo.net/encrypt/rsakey)进行生成。（将生成后的结果拷贝到文本编辑器后，先进行合并行，再移除文件中的空白符号即可）
+> 注意：上述创建jwt_RS256应用所需的Public Key和privateKey，可以运行代码`RSAGenerator.go`进行生成，或者使用[在线生成工具](https://www.lddgo.net/encrypt/rsakey)进行生成。（将生成后的结果拷贝到文本编辑器后，先进行合并行，再移除文件中的空白符号即可）
 
 ![img.png](images/online_gen_rsa.png)
 
